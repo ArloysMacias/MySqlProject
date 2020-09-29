@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="148851c8-b116-4380-a894-65f3c6364873" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,11 +23,34 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mysql@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mysql@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="mysql@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="Chinook: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1i9W8CMiKnP7vKeqnxuqPpNDCKg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -35,14 +61,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DatabaseDriversLRU" value="java.sql.Driver&#10;mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="RemoteServers" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="mysql-from-python" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -83,7 +110,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601320126329</updated>
-      <workItem from="1601320128352" duration="2777000" />
+      <workItem from="1601320128352" duration="9713000" />
     </task>
     <servers />
   </component>
@@ -91,28 +118,48 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2240" y="-92" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601321083267">
+    <state x="2240" y="-92" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601331031197">
       <screen x="1680" y="-286" width="1920" height="1057" />
     </state>
-    <state x="2240" y="-92" key="#com.intellij.execution.impl.EditConfigurationsDialog/3600.-286.1920.1057/1680.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601321083267" />
-    <state width="1878" height="441" key="GridCell.Tab.0.bottom" timestamp="1601322848857">
+    <state x="2240" y="-92" key="#com.intellij.execution.impl.EditConfigurationsDialog/3600.-286.1920.1057/1680.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601331031197" />
+    <state x="2160" y="-74" key="DBNavigator.DatasetFilterDialog" timestamp="1601330172175">
       <screen x="1680" y="-286" width="1920" height="1057" />
     </state>
-    <state width="1878" height="441" key="GridCell.Tab.0.bottom/3600.-286.1920.1057/1680.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601322848857" />
-    <state width="1878" height="441" key="GridCell.Tab.0.center" timestamp="1601322848856">
+    <state x="2160" y="-74" key="DBNavigator.DatasetFilterDialog/3600.-286.1920.1057/1680.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601330172175" />
+    <state x="2178" y="-96" key="DBNavigator.MethodExecutionHistoryDialog" timestamp="1601330299046">
       <screen x="1680" y="-286" width="1920" height="1057" />
     </state>
-    <state width="1878" height="441" key="GridCell.Tab.0.center/3600.-286.1920.1057/1680.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601322848856" />
-    <state width="1878" height="441" key="GridCell.Tab.0.left" timestamp="1601322848855">
+    <state x="2178" y="-96" key="DBNavigator.MethodExecutionHistoryDialog/3600.-286.1920.1057/1680.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601330299046" />
+    <state x="2275" y="-86" key="DBNavigator.ProjectSettingsDialog" timestamp="1601330292092">
       <screen x="1680" y="-286" width="1920" height="1057" />
     </state>
-    <state width="1878" height="441" key="GridCell.Tab.0.left/3600.-286.1920.1057/1680.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601322848855" />
-    <state width="1878" height="441" key="GridCell.Tab.0.right" timestamp="1601322848856">
+    <state x="2275" y="-86" key="DBNavigator.ProjectSettingsDialog/3600.-286.1920.1057/1680.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601330292092" />
+    <state width="1878" height="441" key="GridCell.Tab.0.bottom" timestamp="1601330309981">
       <screen x="1680" y="-286" width="1920" height="1057" />
     </state>
-    <state width="1878" height="441" key="GridCell.Tab.0.right/3600.-286.1920.1057/1680.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601322848856" />
+    <state width="1878" height="441" key="GridCell.Tab.0.bottom/3600.-286.1920.1057/1680.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601330309981" />
+    <state width="1878" height="441" key="GridCell.Tab.0.center" timestamp="1601330309979">
+      <screen x="1680" y="-286" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="441" key="GridCell.Tab.0.center/3600.-286.1920.1057/1680.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601330309979" />
+    <state width="1878" height="441" key="GridCell.Tab.0.left" timestamp="1601330309979">
+      <screen x="1680" y="-286" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="441" key="GridCell.Tab.0.left/3600.-286.1920.1057/1680.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601330309979" />
+    <state width="1878" height="441" key="GridCell.Tab.0.right" timestamp="1601330309980">
+      <screen x="1680" y="-286" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="441" key="GridCell.Tab.0.right/3600.-286.1920.1057/1680.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601330309980" />
+    <state width="239" height="457" key="HiddenNamespacesPopup" timestamp="1601330740613">
+      <screen x="1680" y="-286" width="1920" height="1057" />
+    </state>
+    <state width="239" height="457" key="HiddenNamespacesPopup/3600.-286.1920.1057/1680.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601330740613" />
+    <state x="2149" y="-119" key="SettingsEditor" timestamp="1601324875741">
+      <screen x="1680" y="-286" width="1920" height="1057" />
+    </state>
+    <state x="2149" y="-119" key="SettingsEditor/3600.-286.1920.1057/1680.-286.1920.1057/0.23.1680.1027@1680.-286.1920.1057" timestamp="1601324875741" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/mysql$mysql_from_python.coverage" NAME="mysql-from-python Coverage Results" MODIFIED="1601322822721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mysql$mysql_from_python.coverage" NAME="mysql-from-python Coverage Results" MODIFIED="1601330309966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
